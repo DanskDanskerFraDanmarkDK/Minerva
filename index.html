@@ -18,25 +18,64 @@
     <h1>Minervamodellen</h1>
     <p>Svar på de 8 spørgsmål og bliv placeret i minervamodellen.</p>
     <!--Indsæt 8 spørgsmål og svarbokse her -->
+    
+    <input class="form-control-inline" type="number" id="q1" value="1" min="1" max="4">
     <p>...?</p>
     <p>4 - ...</p>
     <p>3 - ...</p>
     <p>2 - ...</p>
     <p>1 - ...</p>
-    <input class="form-control-inline" type="number" id="q1" value="1" min="1" max="4">
+    <input class="form-control-inline" type="number" id="q2" value="1" min="1" max="4">
+    <p>...?</p>
+    <p>4 - ...</p>
+    <p>3 - ...</p>
+    <p>2 - ...</p>
+    <p>1 - ...</p>
+    <input class="form-control-inline" type="number" id="q3" value="1" min="1" max="4">
+    <p>...?</p>
+    <p>4 - ...</p>
+    <p>3 - ...</p>
+    <p>2 - ...</p>
+    <p>1 - ...</p>
+    <input class="form-control-inline" type="number" id="q4" value="1" min="1" max="4">
+    <p>...?</p>
+    <p>4 - ...</p>
+    <p>3 - ...</p>
+    <p>2 - ...</p>
+    <p>1 - ...</p>
+    <input class="form-control-inline" type="number" id="q5" value="1" min="1" max="4">
+    <p>Hvad er din mening om kongehuset?</p>
+    <p>4 - Jeg ejer alle udgaver af Billed-Bladet nogensinde trykt. </p>
+    <p>3 - Jeg synes kongehuset er godt for dansk turisme og er vigtigt for de danske traditioner</p>
+    <p>2 - Jeg er principelt imod ideen om et kongehus.</p>
+    <p>1 - Smid de blodsugende snyltedyr på gaden</p>
+    <input class="form-control-inline" type="number" id="q6" value="1" min="1" max="4">
+    <p>Hvad spiser du oftest til aftensmad?</p>
+    <p>4 - Rødbedebøf med kikærter</p>
+    <p>3 - Hvid fisk og Quinoa</p>
+    <p>2 - Oksekød med bearnaisesovs</p>
+    <p>1 - Stegt flæsk med persillesovs</p>
+    <input class="form-control-inline" type="number" id="q7" value="1" min="1" max="4">
+    <p>Hvad er dit syn på AI?</p>
+    <p>4 - AI er den vigtigste og bedste teknologiske udvikling i de sidste 100 år.</p>
+    <p>3 - AI er en spændende teknologi. Glæder mig til at se, hvor meget det kommer til at gavne samfundet.</p>
+    <p>2 - Det kommer til at påvirke samfundet på hovedsagligt negative måder, men der er gode sider som er vigtige at udnytte. </p>
+    <p>1 - Meget bekymret for ting som fx ChatGPT og AI generelt.</p>
+    <input class="form-control-inline" type="number" id="q8" value="1" min="1" max="4">
+    
     
     <!-- Visning  af resultat -->
     <p id="d1" style="display: none">
-        Du er ...
+        Du er i den soldariske gruppe.
     </p>
     <p id="d2" style="display: none">
-        Du er ...
+        Du er i den traditionelle gruppe.
     </p>
     <p id="d3" style="display: none">
-        Du er ...
+        Du er i den Egenhændige gruppe.
     </p>
     <p id="d4" style="display: none">
-        Du er ...
+        Du er i den Individualistiske gruppe.
     </p>
     <button class="btn btn-success" type="button" id="place" onclick="placePressed()">Placér mig</button>
 
